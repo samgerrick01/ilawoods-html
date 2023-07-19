@@ -16,6 +16,7 @@
   font-size: 20px;
   height: 60%;
   max-height: 800px;
+  overflow-x: auto;
 }
 
 .modal-thankyou {
