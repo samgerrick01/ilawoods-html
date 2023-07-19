@@ -1,0 +1,39 @@
+.room-wrap {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.room-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.room-container1 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.room-input {
+  font-size: 24px;
+  width: 20px;
+  height: 20px;
+}
+
+.room-label {
+  font-size: 24px;
+  margin: 0;
+}
+
+.room-qty {
+  width: 50px;
+}
+
+@media (min-width: 280px) and (max-width: 560px) {
+  .room-wrap {
+    width: 100%;
+  }
+}
